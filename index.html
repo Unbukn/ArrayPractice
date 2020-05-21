@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's your fav ice cream</title>
+</head>
+<body>
+    <script >
+        // list the arry
+        var iceCreams = ["vanilla", "almound", "bananas", "bookie dough", "birthday cake"];
+        // ask if user likes ice cream
+        var likeIceCream = confirm("Do you even like ice bream Blood?");
+        if (likeIceCream == false) {
+            alert("damn Blood, ice bream is fire. . . you lacking..");
+        } else {
+            var flavorLiked = prompt("What flavor you like Blood?");
+            var flavorLikedLower = flavorLiked.toLocaleLowerCase();
+            if (iceCreams.indexOf(flavorLikedLower ) == -1) {
+                alert("nah.. that shit garbage Blood");
+            } else {
+                alert("AYY, i fucks with that too Blood.")
+            }
+        }
+    </script>
+
+
+</body>
+</html>
